@@ -1,0 +1,11 @@
+Exception:
+
+				An expected event that disturbs normal flow of the program is called "Exception" 
+
+Run-time Stack mechanism:
+					
+	* For every thread JVM will create a "Runtime Stack".
+	* All the method call performed by thread are stored in the "Stack".
+	* Each entry in stack is called as "Activation record" or "Stack Frame".
+	* After completing every method call JVM deletes the corresponding entry from the Stack.
+	* After completing all the method calls, just before terminating that thread JVM destroys the stack.
