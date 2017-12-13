@@ -31,7 +31,7 @@ public class OneDimension {
 		// Array Declaration , Instantiation and initialization in a single line
 		
 		String days[] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
-				System.out.println(days[0]+" comes after saturday? weird." );
+		System.out.println(days[0]+" comes after saturday? weird." );
 				
 		}
 
