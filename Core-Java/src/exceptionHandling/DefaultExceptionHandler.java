@@ -1,3 +1,9 @@
+/*
+   This is a simple Java program.
+   To demonstrate how exception is handled by Java.
+*/
+
+
 package exceptionHandling;
 
 public class DefaultExceptionHandler {
