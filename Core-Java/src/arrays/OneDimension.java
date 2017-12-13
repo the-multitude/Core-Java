@@ -13,7 +13,7 @@ public class OneDimension {
 		month_days = new int[12];
 		
 		//Array initialization - When ever array is created it's automatically initialized with default value "null"
-		month_days[0] = 31; // Default value "null" has been modified with the value "31"
+		month_days[0] = 31; // Default value "0" has been modified with the value "31"
 		month_days[1] = 28;
 		month_days[2] = 31;
 		month_days[3] = 30;
