@@ -1,6 +1,5 @@
 /*
-   This is a simple Java program.
-   To demonstrate how exception is handled by Java.
+   This is to demonstrate how an exception is handled by Java.
 */
 
 

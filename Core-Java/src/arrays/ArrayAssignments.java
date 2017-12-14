@@ -19,8 +19,8 @@ public class ArrayAssignments {
 			a[2] = b;
 			short s = 10;
 			a[3] = s;
-			//a[4] = 10l; // compile time error - Type mismatch: cannot convert from long to int
-			//a[5] = 10.5 // compile time error - Type mismatch: cannot convert from double to int
+			//a[4] = 10l; // compile error - incompatible types: possible lossy conversion from long to int
+			//a[5] = 10.5; // compile error - incompatible types: possible lossy conversion from double to int
 		
 		
 		
@@ -32,7 +32,7 @@ public class ArrayAssignments {
 		
 			num[0] = new Integer(10);
 			num[1] = new Double(100.55);
-			//num[2] = new String ("Multitude"); // compile time error - Type mismatch: cannot convert from String to Number
+			//num[2] = new String ("Multitude"); // compile error - incompatible types: String cannot be converted to Number
 		
 			
 		// Can hold different types inheriting from Object. 
@@ -53,7 +53,7 @@ public class ArrayAssignments {
 		
 			numb[0] = new Integer(10);
 			numb[1] = new Double(100.55);
-			//numb[2] = new String ("Multitude"); // compile time error - Type mismatch: cannot convert from String to Number
+			//numb[2] = new String ("Multitude"); // compile error - incompatible types: String cannot be converted to Number
 
 	/**
 	Case 4: For interface type arrays elements, we can provide its implementation class objects.
@@ -61,7 +61,7 @@ public class ArrayAssignments {
 		Runnable [] run = new Runnable[10];
 		
 			run[0] = new Thread();
-			//run[1] = new String("Weird"); // compile time error - Type mismatch: cannot convert from String to Runnable
+			//run[1] = new String("Weird"); // compile error - incompatible types: String cannot be converted to Runnable
 			
 			
 	/**
@@ -76,7 +76,7 @@ public class ArrayAssignments {
 			int [] i = {1,2,3,4,5};
 			char[] j = {'a','b'};			
 			int[] k = i;
-			//int [] l = j; // compile time error - Type mismatch: cannot convert from char[] to int[]
+			//int [] l = j; // compile error - incompatible types: char[] cannot be converted to int[]
 			
 			// b).
 			String [] st = {"Java", "Javascript", "Python"};
