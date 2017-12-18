@@ -19,7 +19,7 @@ public class UninitializedArray {
 		/*
 		 
 		 int[] notInit -> array reference is created but not initialized. So JVM provides null value
-		 int[] init = new int[5]; -> Here with new operator we are an object because of that JVM provide
+		 int[] init = new int[5]; -> Here with new operator we are creating an object because of that JVM provide
 		 							 default value '0'
 
 		 * Once an array is created and initialized, JVM provide default values to static array or instance array
