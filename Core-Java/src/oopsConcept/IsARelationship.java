@@ -60,7 +60,7 @@ public class IsARelationship {
 	1. What ever the parent class has, by default it will be available to child class. So with child class
 	reference we can call both parent and child class methods.
 	
-	2. What ever the child class has, by default will not be available to parent class. So on the parent reference
+	2. What ever the child class has, will not be available to parent class. So on the parent reference
 	we can call only parent class methods (we can't call child specific methods).
 	
 	3. Parent class reference is used to hold child class objects by using that reference we can only parent class
