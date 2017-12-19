@@ -1,6 +1,9 @@
 package oopsConcept;
 
 /**
+ Is-a-Relationship:
+ 
+ * IS A relationship means you inherit and extend the functionality of the Parent class.
  
  * It is also known as Inheritance.
  
