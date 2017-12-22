@@ -2,8 +2,8 @@ package variables;
 
 public class UninitializedArray {
 
-	int[] notInit;
-	int[] init = new int[5];
+	int[] notInit; // Declared a reference variable
+	int[] init = new int[5]; // Created an object
 
 
 	public static void main(String[] args) {
