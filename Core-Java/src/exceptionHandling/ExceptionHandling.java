@@ -14,7 +14,7 @@ package exceptionHandling;
  */
 
 
-public class CustomizedExceptionHandling {
+public class ExceptionHandling {
 
 	public static void main(String[] args) {
 		
