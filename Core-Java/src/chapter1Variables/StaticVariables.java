@@ -1,7 +1,7 @@
 package chapter1Variables;
 
 /**
-Static Variable:
+ * Static Variable:
 
  * If the value of a variable not varied from object to object then it's never recommended to declare that variable
 	at object level, such type of variables should be declared at Class level using "Static" modifier

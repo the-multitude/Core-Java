@@ -1,4 +1,4 @@
-package chapter1Variables;
+package array;
 
 public class UninitializedArray {
 

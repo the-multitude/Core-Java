@@ -1,7 +1,7 @@
 package chapter1Variables;
 
 /**
-Local Variable:
+ * Local Variable:
 
  * To meet the temporary requirement local variables are created. Local variables are created inside a method
     or block or constructor.

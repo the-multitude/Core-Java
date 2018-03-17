@@ -1,7 +1,7 @@
 package chapter1Variables;
 
 /**
-Instance Variable:
+ * Instance Variable:
 
  * If the value of a variable varied from object to object such types of variables are 
 	  called "Instance Variables"
