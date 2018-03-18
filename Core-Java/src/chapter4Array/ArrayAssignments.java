@@ -1,4 +1,4 @@
-package chapter2Array;
+package chapter4Array;
 
 public class ArrayAssignments {
 
