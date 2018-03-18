@@ -1,4 +1,4 @@
-package array;
+package chapter2Array;
 
 public class OneDimension {
 

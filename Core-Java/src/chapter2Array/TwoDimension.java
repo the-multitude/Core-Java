@@ -1,4 +1,4 @@
-package array;
+package chapter2Array;
 
 /*
 2-D matrix:
