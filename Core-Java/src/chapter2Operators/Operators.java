@@ -1,5 +1,10 @@
 package chapter2Operators;
 
+/**
+ * @author Madhan
+ *
+ */
+
 public class Operators {
 
 	public static void main(String[] args) {
