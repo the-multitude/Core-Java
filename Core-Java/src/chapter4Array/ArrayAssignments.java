@@ -32,8 +32,8 @@ public class ArrayAssignments {
 		
 			num[0] = new Integer(10);
 			num[1] = new Double(100.55);
+			num[2] = 10;
 			//num[2] = new String ("Multitude"); // compile error - incompatible types: String cannot be converted to Number
-		
 			
 		// Can hold different types inheriting from Object. 
 		//That is almost everything because Object is the root of the class hierarchy.Every class has Object as a superclass.

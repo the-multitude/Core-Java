@@ -33,8 +33,17 @@ public class InstanceVariables {
 	boolean b;
 
 	public static void main(String[] args) {
+		
 		//System.out.println(x); // Compile error - non-static variable x cannot be referenced from a static context
-
+		
+		/*
+		 * A static method cannot access a class’s instance variables and instance methods, 
+		 * because a static method can be called even when no objects of the class have been instantiated. 
+		 * For the same reason, the this reference cannot be used in a static method.
+		 * The this reference must refer to a specific object of the class, and when a static method is called, 
+		 * there might not be any objects of its class in memory.
+		 */
+		
 		InstanceVariables var = new InstanceVariables();
 		System.out.println(var.x); //Output: 10 - through object we can access instance variable from static area
 
